@@ -20,5 +20,16 @@ Next we are going to want to go into the Impulse Design tab on the left. You can
 ![image](https://user-images.githubusercontent.com/90651596/215889140-f1c2854f-7b8d-4f60-93ac-9b40d4b32d89.png)
 
 ### Image
-Move on to the next option on the left, the image section under Impulse Design
+Move on to the next option on the left, the image section under Impulse Design. At the top click the 'generate features' tab and click on the `Generate features` button. A graph will appear denoting that the features necessary for model have been created.
+
+![image](https://user-images.githubusercontent.com/90651596/215893317-c7ee9508-1aed-4efe-aeab-c1ce691896ba.png)
+
+### Object Detection
+Next we head over to the Object detection tab on the left. Starting at the top, we need to make sure the target processor is set, for me it is going to be the 'Renesas RZ/V2L (with DRP-AI accelerator)'.
+
+
+
+![image](https://user-images.githubusercontent.com/90651596/215895315-71c77de6-d168-44a6-a6f8-a5dff6194dca.png)
+
+
 
