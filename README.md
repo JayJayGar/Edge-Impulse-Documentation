@@ -35,7 +35,3 @@ Next we head over to the Object detection tab on the left. Starting at the top, 
 There are a couple more tabs left, but I am going to be skipping to the deployment tab. All you have to do here is select your preferred method for exporting, mine being through the board I am using "Linux (RZ/V2L)." Once you select the type of export, the only next step on the browser is to click the `Build` button.
 
 ![image](https://user-images.githubusercontent.com/90651596/216429576-7f64143c-8c08-48ef-9041-b53700e13fdb.png)
-
-### Sending file to Linux
-
-
