@@ -25,11 +25,13 @@ Move on to the next option on the left, the image section under Impulse Design. 
 ![image](https://user-images.githubusercontent.com/90651596/215893317-c7ee9508-1aed-4efe-aeab-c1ce691896ba.png)
 
 ### Object Detection
-Next we head over to the Object detection tab on the left. Starting at the top, we need to make sure the target processor is set, for me it is going to be the 'Renesas RZ/V2L (with DRP-AI accelerator)'.
+Next we head over to the Object detection tab on the left. Starting at the top, we need to make sure the target processor is set, for me it is going to be the 'Renesas RZ/V2L (with DRP-AI accelerator)'. First you are going to want to select a model, as the other settings depend on what you choose. I am going to be using `Renesas / YOLOv5 for Renesas DRP-AI`, and I am setting the training cycles to 8, as that is as many the time alloted allowed for using this model. You should choose as many training cycles are you can; and set the learning rate to 0.001% and the Validation set size to 20% for best results.Click the `Start Training` button and wait for the model to be completed.
 
 
+![image](https://user-images.githubusercontent.com/90651596/216424091-963d07e8-2093-4e39-a363-64768e6f8cc9.png)
 
-![image](https://user-images.githubusercontent.com/90651596/215895315-71c77de6-d168-44a6-a6f8-a5dff6194dca.png)
+## Deployment
+There are a couple more tabs left, but I am going to be skipping to the deployment tab. All you have to do here is select your preferred method for exporting, mine being through the board I am using "Linux (RZ/V2L)." Once you select the type of export, the only next step on the browser is to click the `Build` button.
 
-
+![image](https://user-images.githubusercontent.com/90651596/216429576-7f64143c-8c08-48ef-9041-b53700e13fdb.png)
 
