@@ -4,7 +4,7 @@ I started by creating an account and creating a project. I set up the dashboard,
 
 ![image](https://user-images.githubusercontent.com/90651596/215884961-55ca2732-633d-4e6e-a1bf-bd210321fcfd.png)
 ## Downloading and Uploading the Data Set
-I began by downloading a public dataset from [Kaggle](https://www.kaggle.com), one that detects and creates bounding boxes around cars. The data was created by taking a video and splicing the video up into many images; with a `.csv` file denoting where the bounding boxes were in the training set. I originally tried to upload the file as is, but found that with creating bounding boxes with image only a `.json` file could be used
+I began by downloading a public dataset from [Kaggle](https://www.kaggle.com), one that detects and creates bounding boxes around cars. The data was created by taking a video and splicing the video up into many images; with a `.csv` file denoting where the bounding boxes were in the training set. I originally tried to upload the file as is, but found that for creating bounding boxes with images, on Edge Impulse only a `.json` file could be used.
 
 Knowing that Edge Impulse requires a `.json` file for bounding boxes, I used an online resource to parse the data into a `.json`. It created an unformatted and unusable file, so I created a [script](https://github.com/JayJayGar/.JSON-editor) to parse it using the accepted format, which can be [found here](https://docs.edgeimpulse.com/docs/edge-impulse-cli/cli-uploader#bounding-boxes). The script also renames the file into `bounding_boxes.labels` which is needed for uploading the file.
 
