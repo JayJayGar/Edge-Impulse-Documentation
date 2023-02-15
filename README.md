@@ -39,6 +39,6 @@ To test your model, you are going to want to go to the `Model Testing` tab on th
 
 ## Exporting of Model
 ### Deployment
-There are a couple more tabs left, but I am going to be skipping to the deployment tab. All you have to do here is select your preferred method for exporting, mine being through the board I am using "Linux (RZ/V2L)." Once you select the type of export, the only next step on the browser is to click the `Build` button.
+There are a couple more tabs left, but I am going to be skipping to the deployment tab. All you have to do here is select your preferred method for exporting, mine being through the board I am using "Linux (RZ/V2L)." Once you select the type of export, the only next step on the browser is to click the `Build` button. It should download the file automatically.
 
 ![image](https://user-images.githubusercontent.com/90651596/216429576-7f64143c-8c08-48ef-9041-b53700e13fdb.png)
