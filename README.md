@@ -30,6 +30,13 @@ Next we head over to the Object detection tab on the left. Starting at the top, 
 
 ![image](https://user-images.githubusercontent.com/90651596/216424091-963d07e8-2093-4e39-a363-64768e6f8cc9.png)
 
+
+## Model Testing
+To test your model, you are going to want to go to the `Model Testing` tab on the left, and hit classify all. If you get an error stating that there is an undefined toString like I did, go back to the image tab and re-generate the features.
+
+![image](https://user-images.githubusercontent.com/90651596/218908824-cd998a70-d501-4896-a6ff-fd4ca15f4444.png)
+
+
 ## Exporting of Model
 ### Deployment
 There are a couple more tabs left, but I am going to be skipping to the deployment tab. All you have to do here is select your preferred method for exporting, mine being through the board I am using "Linux (RZ/V2L)." Once you select the type of export, the only next step on the browser is to click the `Build` button.
